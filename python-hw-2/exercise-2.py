@@ -16,11 +16,38 @@
 #   transformStr('up') - > 'UP' (Починается на U)
 #   transformStr('Luxery') - > 'luxer...' (Починается на L + довжина більше 5 символів)
 
+x = "uelM"
+if len(x) > 5:
+        print(x[:5])
+elif x[0]=="U" or x[0]=="u":
+        print(x.upper())
+elif x[0]=="l" or x[0]=="L":
+        print(x.lower())
+elif x[0]==["a-t","x-z", "L"] and len(x) > 5:
+        print(x[:5], x.lower())
+else:
+        print(x)
 
-def transformStr(str):
-    print('Напишіть логіку тут...')
+# transformStr('Testing string') # 'Testi...' (довжина більше 5 символів)
+# transformStr('Lux') # 'lux' (Починается на L)
+# transformStr('up') # 'UP' (Починается на U)
+# transformStr('Luxery') # 'luxer...' (Починается на L + довжина більше 5 символів)
 
-transformStr('Testing string') # 'Testi...' (довжина більше 5 символів)
-transformStr('Lux') # 'lux' (Починается на L)
-transformStr('up') # 'UP' (Починается на U)
-transformStr('Luxery') # 'luxer...' (Починается на L + довжина більше 5 символів)
+
+# b = "Hello Amazing World!"
+#
+# # Get the characters from position
+# # n 2 to position 5 (not included):
+# print(b[2:5])
+#
+# # Get the characters from the start to position 5 (not included):
+# print(b[:5])
+#
+# # Get the characters from position 2, and all the way to the end:
+# print(b[2:])
+#
+# print(b[-5:-2])
+#
+# # upper lower
+# print('upperCase', b.upper())
+# print('lowerCase', b.lower())

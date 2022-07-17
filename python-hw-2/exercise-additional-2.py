@@ -14,9 +14,22 @@
 # Приклад 1
 # commonStr('good day', 'good morning') -> 'god'
 
+# def commonStr(str1, str2):
+#     str1 = 'loli'
+#     str2 = 'luck'
+#     str1.find(str1, ["Aa"],["Zz"])
+#     return ''
 
-def commonStr(str1, str2):
-    return ''
+str.index("loli", "lo", 0, 3)
+print()
 
-print(commonStr('loli', 'luck') == 'l') 
-print(commonStr('good day', 'good morning') == 'god') 
+
+
+# print(commonStr('loli', 'luck') == 'l')
+# print(commonStr('good day', 'good morning') == 'god')
+
+
+
+# from collections import Counter
+# a = "aabbcc"
+# print(Counter(a))

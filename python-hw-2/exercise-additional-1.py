@@ -27,11 +27,55 @@
 
 # Для числа 2 потріботно повернути 2, тому що число 2 складається з однієї цифри.
 
+# num = 678
+# num = set(x, y, z)
+#
+# def sum (num):
+#     {sum = x + y + z
+#     print(sum)
+#     if len(sum) > 2
+#     sum = (x + y)
+#     else:
+#     print(sum)
+#     return sum }
+# num = 6786
+# def sum(num):
+#     sum = 0
+#     while num > 0:
+#         sum += num % 10
+#         num //= 10
+#     return sum
+# print(sum(num))
+# len(sum(num))
+# def newsum(sum):
+#     newsum = 0
+#     print(newsum)
+#     while newsum > 9:
+#         newsum += sum % 10
+#         sum //= 10
+#     return newsum
+# print(newsum(sum))
 
-def sumNum(num):
-    return num
 
-print(sumNum(38) == 2) 
-print(sumNum(40) == 4)
-print(sumNum(48) == 3) 
-print(sumNum(2) == 2) 
+
+n=67459877
+sum = list(map(int, str(n)))
+print(sum(list(map(int, str(n))))
+
+# n = 43564257346
+# def sum_dig(m):
+#     m = 0
+#     while n > 9:
+#         m = sum(map(int, str(n)))
+#     return sum_dig
+#     print(sum_dig)
+# # num = 12345
+# sum(map(int,str(12345)))
+# sum
+# def sumNum(num):
+#     return num
+#
+# print(sumNum(38) == 2)
+# print(sumNum(40) == 4)
+# print(sumNum(48) == 3)
+# print(sumNum(2) == 2)
